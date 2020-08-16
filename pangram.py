@@ -5,6 +5,7 @@ for alpha in range(97,123):
     for string in converting_string_into_set:
         if(chr(alpha)==string):
             flag=flag+1
+            break
 if(flag==26):
     print("it is pangram")
 else:
